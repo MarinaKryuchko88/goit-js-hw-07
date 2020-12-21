@@ -1,3 +1,4 @@
+/* ~~~~~~~~~~~~~~~~~~Задача-3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .styles {
   display: flex;
   width: calc((100%-30px * 3) / 4);
@@ -8,3 +9,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* ~~~~~~~~~~~~~~~~Задача-6~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
